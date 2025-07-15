@@ -132,7 +132,7 @@ const emprendimientos = [
     "assets/emp4/style6.jpeg",
     "assets/emp4/style7.jpeg"
   ],
-  telefono: "3000000000" // reemplaza con el número real si lo tienes
+  telefono: "3245645976" // reemplaza con el número real si lo tienes
 },
 {
   nombre: "Bolígrafos Encantados",
@@ -149,7 +149,7 @@ const emprendimientos = [
   palabrasClave: ["lapiceros", "personalizados", "regalos", "papelería", "colores", "decoración"],
   categoria: "Arte",
   imagenes: ["assets/emp5/boligrafo1.jpeg"],
-  telefono: "3000000000" // reemplaza con el número real si lo tienes
+  telefono: "3213958984" // reemplaza con el número real si lo tienes
 },
 {
   nombre: "Yaniritha_Crochet",
