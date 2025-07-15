@@ -71,7 +71,7 @@ header {
   color: white;
 }
 
-.card {
+/* .card {
   background: var(--card-bg-light);
   margin: 1rem;
   border-radius: var(--border-radius);
@@ -80,7 +80,19 @@ header {
   transition: var(--transition);
     display: flex;
   flex-direction: column;
+  justify-content: space-between; 
+} */
+.card {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  overflow: hidden;
+  transition: transform 0.2s;
+  margin: 1.5rem;
+
 }
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -133,9 +145,15 @@ body.dark .card {
 
 #emprendimientosContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* 3 columnas en desktop, ajustable */
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+@media (min-width: 900px) {
+  #emprendimientosContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* Modal */

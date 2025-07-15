@@ -106,7 +106,78 @@ const emprendimientos = [
 ],
 
   telefono: "3008836495"
+},
+{
+  nombre: "Ropa Style",
+  descripcion: "Oversize & Tejido con Estilo.",
+  descripcionLarga: `
+    <p>En <strong>Ropa Style</strong> vestimos a quienes se atreven a ser diferentes.</p>
+    <p>Ofrecemos prendas <strong>oversize</strong> y <strong>tejidas</strong>, con diseños cómodos, auténticos y con ese toque street que marca tendencia.</p>
+    <p>Ideal para <strong>mujeres y hombres</strong> que aman la moda libre, sin etiquetas y con mucha actitud.</p>
+    <ul>
+      <li>🧵 Prendas con alma</li>
+      <li>🖤 Unisex – Oversize – Hechas para destacar</li>
+      <li>🎯 Estilo urbano y relajado</li>
+    </ul>
+    <p><em>Ropa con flow. Ropa con historia. Ropa Style.</em></p>
+  `,
+  palabrasClave: ["ropa", "oversize", "tejido", "urbano", "moda", "unisex"],
+  categoria: "Moda",
+  imagenes: [
+    "assets/emp4/style1.jpeg",
+    "assets/emp4/style2.jpeg",
+    "assets/emp4/style3.jpeg",
+    "assets/emp4/style4.jpeg",
+    "assets/emp4/style5.jpeg",
+    "assets/emp4/style6.jpeg",
+    "assets/emp4/style7.jpeg"
+  ],
+  telefono: "3000000000" // reemplaza con el número real si lo tienes
+},
+{
+  nombre: "Bolígrafos Encantados",
+  descripcion: "Lapiceros únicos decorados con amor.",
+  descripcionLarga: `
+    <p>En <strong>Bolígrafos Encantados</strong> creamos <strong>lapiceros decorados</strong> con amor, únicos como tú.</p>
+    <p>✨ Personaliza cada uno con tu nombre.</p>
+    <p>🎁 Perfectos para regalar en cualquier ocasión:</p>
+    <ul>
+      <li>🌈 Variedad de colores, estilos y detalles</li>
+    </ul>
+    <p><em>Detalles que marcan la diferencia en cada palabra escrita 💖</em></p>
+  `,
+  palabrasClave: ["lapiceros", "personalizados", "regalos", "papelería", "colores", "decoración"],
+  categoria: "Arte",
+  imagenes: ["assets/emp5/boligrafo1.jpeg"],
+  telefono: "3000000000" // reemplaza con el número real si lo tienes
+},
+{
+  nombre: "Yaniritha_Crochet",
+  descripcion: "Amigurumis hechos a mano, únicos y adorables.",
+  descripcionLarga: `
+    <p>📞 <strong>3127846582</strong></p>
+    <p><strong>Tejiendo sueños con hilos de colores 🧵💫</strong></p>
+    <p><em>Amigurumis personalizados</em> hechos a mano, únicos y adorables.</p>
+    <p>🎁 <strong>¿Qué ofrecemos?</strong></p>
+    <ul>
+      <li>🐰 Personajes tejidos con ternura</li>
+      <li>🔑 Llaveros, adornos y decoraciones</li>
+      <li>💡 Pedidos a tu gusto (colores, tamaños y temáticas)</li>
+    </ul>
+  `,
+  palabrasClave: ["amigurumi", "tejido", "crochet", "hecho a mano", "personalizado", "llaveros"],
+  categoria: "Arte",
+  imagenes: [
+    "assets/emp6/yaniritha1.jpeg",
+    "assets/emp6/yaniritha2.jpeg",
+    "assets/emp6/yaniritha3.jpeg",
+    "assets/emp6/yaniritha4.jpeg",
+  ],
+  telefono: "3127846582"
 }
+
+
+
 
 ];
 
