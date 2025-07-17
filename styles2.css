@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-color: var(--bg-light);
@@ -286,6 +286,18 @@ body.dark .modal-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+/* Fuente serif solo para las descripciones largas */
+.modal-right p#modalDescription {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.descripcion-larga {
+  font-family: 'Merriweather', serif;
 }
 
 .whatsapp-btn {
